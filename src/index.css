@@ -1,4 +1,4 @@
-  .landing {
+  /* .landing {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
 
   .landing .content img{
     width: 250px;
-  }
+  } */
   
   body{
     margin: 0;
@@ -412,7 +412,6 @@
     padding: 50px 0 0 0;
     color: white;
     position: relative;
-    box-shadow: 0 -2px 5px 0 grey;
   }
   
   footer::after{
@@ -429,22 +428,30 @@
   footer .row {
     position: relative;
     z-index: 3;
+    padding-bottom: 8px;
   }
   
   footer .row .col-lg-5 h2{
     font-family: "Lato", serif;
-    margin: 0 0 25px 0;
+    margin: 0 0 15px 0;
     font-weight: 600;
   }
   
   footer .row .col-lg-5 ul li {
     font-family: "Open Sans", serif;
+    padding: 5px 0;
   }
   
+  footer .bottom p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+  }
+
   footer .bottom{
     position: relative;
     z-index: 3;
-    font-family: "Open Sans", serif;
   }
 
   @media screen and (max-width: 1200px) {
