@@ -5,9 +5,10 @@ export default function AboutPT(){
             <div className="container">
                 <div className="row">
                     <div className="content">
-                        <h2>Tentang Perusahaan</h2>
-                        <p>PT Abdi Sarana Asri adalah perusahaan yang bergerak di bidang jasa kebersihan dengan komitmen untuk menghadirkan lingkungan yang bersih dan nyaman. Sebagai anak perusahaan dari PT Thamrin Meyer Corporation, kami menghadirkan layanan kebersihan berkualitas melalui brand Nyamanin.</p>
-                        <p>Dengan tim profesional yang terlatih dan peralatan terbaik di bidangnya, Nyamanin siap membantu membersihkan noda dan kotoran membandel yang mengganggu kenyamanan Anda. Kami tidak hanya memberikan kebersihan yang maksimal, tetapi juga menghadirkan ketenangan dan efisiensi bagi pelanggan kami. Sesuai dengan jargon kami: Kebersihan tak terlupakan. Pelayanan tanpa batas.</p>
+                        <h2>Tentang Kami</h2>
+                        <p>PT Abdi Sarana Asri didirikan dengan komitmen untuk menghadirkan layanan kebersihan berkualitas tinggi bagi pelanggan. Sebagai perusahaan yang bergerak di bidang jasa kebersihan profesional, kami berfokus pada solusi pembersihan yang detail, efisien, dan memberikan kenyamanan bagi setiap pelanggan.</p>
+                        <p>Dengan visi menjadi perusahaan penyedia jasa kebersihan terbaik, kami menghadirkan layanan Nyamanin, sebuah solusi kebersihan dengan standar tinggi yang mengutamakan kesehatan, kenyamanan, dan kepuasan pelanggan.</p>
+                        <p>Melalui tim profesional yang terlatih dan dilengkapi dengan peralatan terbaik, Nyamanin hadir untuk menangani noda membandel dan memastikan lingkungan tetap bersih serta higienis. Kami percaya bahwa kebersihan yang optimal dapat menciptakan kenyamanan tanpa batas, sesuai dengan jargon kami: "Kebersihan tak terlupakan, pelayanan tanpa batas."</p>
                     </div>
                 </div>
             </div>

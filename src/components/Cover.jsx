@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import LogoMain from "../assets/image/logo/ASA-Logo Utama (P).png"
-import Forest1 from "../assets/image/bg/forest1.png"
-import Forest2 from "../assets/image/bg/forest2.png"
-import Room from "../assets/image/bg/room.png"
+import Room1 from "../assets/image/bg/room4.png"
+import Room2 from "../assets/image/bg/room3.png"
+import Room3 from "../assets/image/bg/room.png"
+import Room4 from "../assets/image/bg/room5.png"
 
-const images = [Forest1, Room, Forest2];
+const images = [Room1, Room3, Room2, Room4];
 
 export default function Cover(){
 
