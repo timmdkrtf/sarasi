@@ -1,4 +1,4 @@
-  .landing {
+  /* .landing {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
 
   .landing .content img{
     width: 250px;
-  }
+  } */
   
   body{
     margin: 0;
@@ -738,7 +738,6 @@
 
     .cover .row .content img{
       width: 200px;
-      background-color: #ffffff;
       padding: 20px 15px;
       border-radius: 10px;
       position: relative;
@@ -817,6 +816,10 @@
     .footer::after{
       height: 30px;
       top: -7px;
+    }
+
+    footer .bottom p{
+      font-size: 11px;
     }
   }
 
