@@ -1,5 +1,5 @@
-import AlvainPhoto from "../assets/image/photo/Frame 4.png"
-import TaufikPhoto from "../assets/image/photo/Frame 3.png"
+import AlvainPhoto from "../assets/image/photo/Frame 28.png"
+import TaufikPhoto from "../assets/image/photo/Frame 27.png"
 
 export default function AboutUs(){
     return(

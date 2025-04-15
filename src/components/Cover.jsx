@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion"; 
 import LogoMain from "../assets/image/logo/ASA-Logo Utama (P).png"
 import Room1 from "../assets/image/bg/room4.png"
 import Room2 from "../assets/image/bg/room3.png"
@@ -29,7 +30,12 @@ export default function Cover(){
             <div className="container">
                 <div className="row">
                     <div className="content">
-                        <img src={LogoMain} />
+                    <motion.img
+                            src={LogoMain}
+                            initial={{ rotateY: -360, opacity: 0 }}
+                            animate={{ rotateY: 0, opacity: 1 }}
+                            transition={{ duration: 0.7, ease: "easeOut" }}
+                        />
                         <p>PT Abdi Sarana Asri</p>
                     </div>
                 </div>
