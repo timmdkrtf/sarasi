@@ -641,6 +641,10 @@
     }
   }
   @media screen and (max-width: 576px) {
+    .cover{
+      height: 100dvh;
+    }
+
     .cover .row .content img{
       width: 300px;
     }
