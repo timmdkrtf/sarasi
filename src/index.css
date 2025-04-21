@@ -646,7 +646,7 @@
     }
 
     .cover .row .content{
-      transform: translateY(-50px);
+      transform: translateY(-25px);
     }
 
     .cover .row .content img{
