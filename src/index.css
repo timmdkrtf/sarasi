@@ -645,6 +645,10 @@
       height: 100dvh;
     }
 
+    .cover .row .content{
+      transform: translateY(-50px);
+    }
+
     .cover .row .content img{
       width: 300px;
     }
