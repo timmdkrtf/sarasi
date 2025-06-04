@@ -19,7 +19,7 @@ export default function Navbar(){
                         <a className="nav-link" href="#about-pt">Tentang Perusahaan</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#service">Layanan</a>
+                        <a className="nav-link" href="#visi-misi">Visi dan Misi</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#client">Klien</a>

@@ -2,7 +2,7 @@
 
 export default function VisiMisiValue() {
     return (
-        <div className="visi-misi-value" id="visi-misi-value">
+        <div className="visi-misi-value" id="visi-misi">
             <div className="container">
                 <div className="row justify-content-around">
                     <div className="content-visi-misi col-lg-6 col-md-12 d-flex flex-column">
