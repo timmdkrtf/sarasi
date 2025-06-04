@@ -1,42 +1,22 @@
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion"; 
-import LogoMain from "../assets/image/logo/ASA-Logo Utama (P).png"
-import Room1 from "../assets/image/bg/room4.png"
-import Room2 from "../assets/image/bg/room3.png"
-import Room3 from "../assets/image/bg/room.png"
-import Room4 from "../assets/image/bg/room5.png"
-
-const images = [Room1, Room3, Room2, Room4];
+import LogoASA from "../assets/image/logo/ASA-Logo Utama (N).png"
 
 export default function Cover(){
 
-    const [currentImage, setCurrentImage] = useState(0);
-    const [fade, setFade] = useState(false);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setFade(true); 
-            setTimeout(() => {
-                setCurrentImage((prev) => (prev + 1) % images.length);
-                setFade(false);
-            }, 300); 
-        }, 6000); 
-
-        return () => clearInterval(interval);
-    }, []);
-
     return(
-        <div id="cover" className={`cover ${fade ? "fade-out" : "fade-in"}`} style={{ backgroundImage: `url(${images[currentImage]})` }}>
+        <div id="cover" className="cover">
             <div className="container">
                 <div className="row">
-                    <div className="content">
-                    <motion.img
-                            src={LogoMain}
-                            initial={{ rotateY: -360, opacity: 0 }}
-                            animate={{ rotateY: 0, opacity: 1 }}
-                            transition={{ duration: 0.7, ease: "easeOut" }}
-                        />
-                        <p>PT Abdi Sarana Asri</p>
+                    <div className="content-left col-lg-6 col-md-12">
+                        <h1 className="cover-title">Berkomitmen Menyediakan Layanan <span className="kualitas">Kebersihan Berkualitas</span> untuk Meningkatkan <span className="kesehatan">Kesehatan</span></h1>
+                        <p className="cover-desc">
+                            Kami berkomitmen untuk menyediakan layanan kebersihan yang berkualitas demi meningkatkan kesehatan dan kenyamanan masyarakat. Melalui merek Nyamanin, kami menghadirkan solusi kebersihan yang menyeluruh, ditangani oleh tim profesional dengan peralatan terbaik untuk menjawab berbagai kebutuhan pelanggan.
+                        </p>
+                        <a href="#about" className="btn">Baca Selengkapnya</a>
+                    </div>
+                    <div className="content-right col-lg-6 col-md-12">
+                        <div className="cover-image">
+                            <img src={LogoASA} alt="Cover Image" />
+                        </div>
                     </div>
                 </div>
             </div>
