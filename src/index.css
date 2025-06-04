@@ -518,7 +518,7 @@ body {
   position: absolute;
   width: 100%;
   height: 160%;
-  background-image: url("../src/assets/elemen/Group\ 38.png");
+  background-image: url("../src/assets/elemen/elemen-bg-fluid1.png");
   background-size: contain;
   background-repeat: no-repeat;
   top: 0;
@@ -1390,7 +1390,7 @@ footer .bottom {
     position: absolute;
     width: 100%;
     height: 160%;
-    background-image: url("../src/assets/elemen/Group\ 40.png");
+    background-image: url("../src/assets/elemen/elemen-bg-fluid2.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: 0;
@@ -1691,7 +1691,7 @@ footer .bottom {
     position: absolute;
     width: 100%;
     height: 160%;
-    background-image: url("../src/assets/elemen/Group\ 41.png");
+    background-image: url("../src/assets/elemen/elemen-bg-fluid3.png");
     background-size: contain;
     background-repeat: no-repeat;
     left: 0;
