@@ -9,7 +9,7 @@ import AsimetriKopi from '../assets/image/client/asimetri-kopi.png';
 import CelebrityBarbershop from '../assets/image/client/celebrity-barbershop.jpg';
 import Kimboim from '../assets/image/client/kimboim.jpg';
 import Unida from '../assets/image/client/LOGO-UNIDA.png';
-import Tirta from '../assets/image/client/perumda-tirta-pakuan.jpg';
+import Tirta from '../assets/image/client/perumda-tirta-pakuan.png';
 import RedDoorz from '../assets/image/client/red-doorz.png';
 import VivereCoffee from '../assets/image/client/vivere-coffee.png';
 import Masjid from '../assets/image/client/Logo 2.png';
@@ -21,7 +21,7 @@ export default function Client(){
             <div className="container">
                 <div className="row">
                     <div className="title">
-                        <h3>Our Clients</h3>
+                        <h3>Klien kami</h3>
                     </div>
                     <div className="content d-flex flex-wrap justify-content-center">
                         <img src={Apostrof} alt="" />

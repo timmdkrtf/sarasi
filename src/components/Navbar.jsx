@@ -16,13 +16,13 @@ export default function Navbar(){
                         <a className="nav-link" aria-current="page" href="#cover">Beranda</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Tentang Perusahaan</a>
+                        <a className="nav-link" href="#about-pt">Tentang Perusahaan</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Dewan</a>
+                        <a className="nav-link" href="#service">Layanan</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Brand</a>
+                        <a className="nav-link" href="#client">Klien</a>
                     </li>
                 </ul>
                 </div>
